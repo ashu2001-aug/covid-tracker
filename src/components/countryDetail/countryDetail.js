@@ -24,15 +24,15 @@ export default function countryDetails(props) {
 
             <div className="cases-details">
                 <div className="cases-box Cases">
-                    <span>{props.totalCase}</span>
+                    <h3>{props.totalCase}</h3>
                     <p className="yesterday">Last 24 hours: <strong>{props.newCase}</strong></p>
                 </div>
                 <div className="cases-box Deaths">
-                <span>{props.totalDeaths}</span>
+                <h3>{props.totalDeaths}</h3>
                     <p className="yesterday">Last 24 hours: <strong>{props.newDeaths}</strong></p>
                 </div>
                 <div className="cases-box Recovered">
-                <span>{props.totalRecovered}</span>
+                <h3>{props.totalRecovered}</h3>
                     <p className="yesterday">Last 24 hours: <strong>{props.newRecovered}</strong></p>
                 </div>
             </div>
