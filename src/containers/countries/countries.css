@@ -30,12 +30,9 @@ h2 {
 }
 
 .Filtering .sortBy {
-    height: 100%;
+    height: 75%;
     width: calc(100% -75%);
     margin-left: 25px;
     padding: 0,20px;
 }
 
-.sortBy{
-
-}
