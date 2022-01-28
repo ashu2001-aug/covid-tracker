@@ -54,7 +54,7 @@ export default class CountriesDetails extends Component {
 
         if(value) {
 
-            countryDetails.map(function(cur, index) {
+            countryDetails.forEach(function(cur, index) {
                 const finder = cur.Country.toLowerCase().search(value.toLowerCase())
                 if(finder !== -1) {
                     FindSpecificCountry.push(countryDetails[index]);
