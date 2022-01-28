@@ -26,7 +26,7 @@ height: 100%;}
     grid-template-columns: 33.333% 47.33% calc(100% - 47.33% - 33.33%);
 }
 
-span {
+h3 {
 color: #1644ba;
 text-decoration: none;
 background-color: transparent;
